@@ -1,0 +1,53 @@
+@charset "utf-8";
+@import url("webfonts/Montserrat/stylesheet.css");
+
+/* CSS Document */
+.topnav {
+  background-color: #000;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 20px 26px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #00000;
+  color: white;
+}
+
+@font-face {
+    background-color: #E6E6FA;
+    margin: 0 10%;
+    text-align: center;
+
+}
+
+@import url("webfonts/Montserrat/stylesheet.css");
+ 
+body {
+    background-color: #E6E6FA;
+    margin: 0 10%;
+    border: thick solid #000000;
+    font-family: Montserrat;
+}
+h1 { text-align: center; font-family: serif; font-weight: normal; text-transform: uppercase; border-bottom: 1px solid #57b1dc; margin-top: 30px;}
+h2 {
+    color: #d1633c;
+    font-size: 1em;
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+    text-decoration: underline;
+}
+

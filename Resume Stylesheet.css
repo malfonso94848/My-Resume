@@ -1,0 +1,67 @@
+@charset "utf-8";
+@import url("Khalem_Bold/stylesheet.css");
+@import url("Montserrat/stylesheet.css");
+
+
+/* CSS Document */
+
+body {
+  background-image:url("Nighttime Beach Background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+h1 {
+    color: white;
+    background-color: #2B0088;
+    text-align: center;
+    border: thick solid #000000;
+    font-family: Khalem-Bold;
+}
+	
+h2 {
+	color: white;
+	background-color: #2B0088;
+	text-align: center;
+	border: thick solid #000000;
+	font-family: "Khalem-Bold";
+
+}
+
+p {
+	color: white;
+	font-family: 'Kalam-Light';
+	
+}
+	
+li {
+	color: white;
+	 list-style-type: square;
+	list-style-position: inside;
+	text-align: center;
+	font-family: 'Kalam-Light';
+	
+}
+
+.Samples {
+	background-color: #2B2B2B;
+	border: thick solid #000000;
+	
+}
+
+.Links {
+    color: white;
+    background-color: #2B2B2B;
+    text-decoration: none;
+    height: 1.2em;
+    padding: 3px 6px;
+    margin: 10px 0px;
+    border-left: 2px solid white;
+    border-righg: 2px solid white;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    text-align: center;
+	
+	
+	
+	
+}

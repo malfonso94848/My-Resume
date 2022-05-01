@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Blackstone Bistro Sign-Up</title>
+    <style>
+      body {
+        background-color: #e6e6fa;
+        margin: 0 10%;
+        font-family: sans-serif;
+      }
+      h1 {
+        text-align: center;
+        font-family: serif;
+        font-weight: normal;
+        text-transform: uppercase;
+        border-bottom: 1px solid #57b1dc;
+        margin-top: 30px;
+      }
+      h2 {
+        color: #d1633c;
+        font-size: 1em;
+      }
+      footer {
+        border-top: 1px solid #57b1dc;
+        text-align: center;
+        padding-top: 1em;
+      }
+      footer img {
+        width: 40px;
+        height: 40px;
+        margin-left: 0.5em;
+        margin-right: 0.5em;
+      }
+      .center {
+        text-align: center;
+      }
+    </style>
+    <link
+      href="Black Goose Bistro Stylesheet.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+  </head>
+
+  <body>
+    <h1>Blakc Goose Bistro | Sign-Up</h1>
+    <p>
+      Create an account with us here at Pet Party Plaza and get chances to earn
+      rewards, discounts and keep up to date with the latest pet news and
+      fashion!
+    </p>
+    <form action="Sign-up.php" method="post">
+      <br />
+      <h2>Your New Account!</h2>
+      <fieldset>
+        <ul style="list-style-type: none">
+          <li>
+            <label>Name:</label>
+            <input type="text" placeholder="User Name..." name="username" />
+          </li>
+          <li>
+            <label>Password:</label>
+            <input type="text" placeholder="Password..." name="password" />
+          </li>
+          <li>
+            <label>Confirm Password:</label>
+            <input
+              type="text"
+              placeholder="Password..."
+              name="password confirmation"
+            />
+          </li>
+          <li>
+            <label for="form-tel">Telephone Number:</label>
+            <input type="tel" name="telephone" />
+          </li>
+          <li>
+            <label for="form-email"
+              >Email: <input type="email" name="email"
+            /></label>
+          </li>
+          <br />
+          <li>
+            <label
+              ><input name="notifications" type="checkbox" checked />Recieve
+              Notifications & Emails about future Products and News</label
+            >
+          </li>
+          <li>
+            <label
+              ><input name="terms" type="checkbox" checked />I have read and
+              agree to erms and conditions</label
+            >
+          </li>
+        </ul>
+      </fieldset>
+
+      <p>
+        <input type="submit" value="Create Account!" /> <input type="reset" />
+      </p>
+    </form>
+
+    <div class="center">
+      <p><a href="index.html" style="font-family: sans-serif">Return</a></p>
+    </div>
+  </body>
+</html>
